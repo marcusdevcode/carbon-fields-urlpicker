@@ -5,7 +5,7 @@ _(this is an extension of [Carbon Fields](http://carbonfields.net/) plugin)_
 You can install it via composer:
 
 ```
-composer require iamntz/carbon-fields-urlpicker --prefer-dist
+composer require marcusdevcode/carbon-fields-urlpicker
 ```
 
 If you install it from the source, you need to make sure that you also run `npm install` and `npm run production` in order to have assets compiled.
