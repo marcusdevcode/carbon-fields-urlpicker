@@ -15,8 +15,8 @@ replace.sync({
 
 replace.sync({
     files: './composer.json',
-    from: /"https:\/\/github.com\/iamntz\/carbon-fields-urlpicker\/releases\/download\/v[^/]+\/carbon-fields-urlpicker.zip"/ig,
-    to: `"https://github.com/iamntz/carbon-fields-urlpicker/releases/download/v${pkg.version}/carbon-fields-urlpicker.zip"`
+    from: /"https:\/\/github.com\/marcusdevcode\/carbon-fields-urlpicker\/releases\/download\/v[^/]+\/carbon-fields-urlpicker.zip"/ig,
+    to: `"https://github.com/marcusdevcode/carbon-fields-urlpicker/releases/download/v${pkg.version}/carbon-fields-urlpicker.zip"`
 })
 
 const hash = execSync('git rev-parse HEAD').toString().trim();

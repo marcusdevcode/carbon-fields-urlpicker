@@ -1,6 +1,6 @@
 {
   "name": "marcusdevcode/carbon-field-urlpicker",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "scripts": {
     "start": "npm run development -- --watch",
     "build": "npm run development && npm run production",
