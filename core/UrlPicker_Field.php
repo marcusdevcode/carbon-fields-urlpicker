@@ -1,6 +1,6 @@
 <?php
 
-namespace Carbon_Field_UrlPicker;
+namespace MarcusDevCode_Carbon_Field_UrlPicker;
 
 use Carbon_Fields\Field\Field;
 use Carbon_Fields\Value_Set\Value_Set;
@@ -39,7 +39,7 @@ class UrlPicker_Field extends Field
 	 */
 	public static function field_type_activated()
 	{
-		$dir = \Carbon_Field_UrlPicker\DIR . '/languages/';
+		$dir = \MarcusDevCode_Carbon_Field_UrlPicker\DIR . '/languages/';
 		$locale = get_locale();
 		$path = $dir . $locale . '.mo';
 		load_textdomain('carbon-field-urlpicker', $path);
@@ -51,7 +51,7 @@ class UrlPicker_Field extends Field
 	 */
 	public static function admin_enqueue_scripts()
 	{
-		$root_uri = \Carbon_Fields\Carbon_Fields::directory_to_url(\Carbon_Field_UrlPicker\DIR);
+		$root_uri = \Carbon_Fields\Carbon_Fields::directory_to_url(\MarcusDevCode_Carbon_Field_UrlPicker\DIR);
 
 		# Enqueue JS
 		wp_register_script('carbon-field-urlpicker', $root_uri . "/assets/build/bundle.min.js", ['carbon-fields-core', 'wplink', 'wpdialogs']);

@@ -1,5 +1,5 @@
 {
-  "name": "iamntz/carbon-fields-urlpicker",
+  "name": "marcusdevcode/carbon-fields-urlpicker",
   "version": "3.0.10",
   "description": "Carbon Fields extension that adds a URL picker field type.",
   "keywords": [
@@ -7,16 +7,13 @@
     "carbon-field",
     "carbon-fields-urlpicker"
   ],
-  "dist": {
-    "type": "zip",
-    "url": "https://github.com/iamntz/carbon-fields-urlpicker/releases/download/v3.0.10/carbon-fields-urlpicker.zip",
-    "reference": "0d5014d078dc797af33829c9ad1aee2ae4074fd4",
-    "shasum": ""
-  },
-  "homepage": "https://github.com/iamntz/carbon-fields-urlpicker",
   "type": "library",
   "license": "GPL-2.0+",
   "authors": [
+    {
+      "name": "MarcusDevCode",
+      "email": "marcusdevcode@gmail.com"
+    },
     {
       "name": "Ionuț Staicu",
       "email": "github@iamntz.com"
@@ -28,7 +25,7 @@
       "field.php"
     ],
     "psr-4": {
-      "Carbon_Field_UrlPicker\\": "core/"
+      "MarcusDevCode_Carbon_Field_UrlPicker\\": "core/"
     }
   }
 }
